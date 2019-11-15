@@ -1,0 +1,64 @@
+.cont1{
+    position: absolute;
+    padding: 10px;
+    margin: 25px;
+    margin-left: 40px;
+    background-image: linear-gradient(to bottom left,white,rgba(240, 197, 225,.5),transparent,rgb(213, 199, 236,.5),white);
+    border-radius: .5%;
+    font-size: 25pt;
+    color: black;
+    top: 180px;
+}
+
+.contm1{
+    position: absolute;
+    padding: 2px;
+    margin: 5px;
+    margin-left: 4px;
+    background-image: linear-gradient(to bottom left,white,rgba(240, 197, 225,.5),transparent,rgb(213, 199, 236,.5),white);
+    border-radius: .5%;
+    font-size: 15pt;
+    color: black;
+    top: 150px;
+}
+
+.contm2{
+    position: absolute;
+    padding: 2px;
+    margin: 5px;
+    margin-left: 4px;
+    background-image: linear-gradient(to bottom left,white,rgba(240, 197, 225,.5),transparent,rgb(213, 199, 236,.5),white);
+    border-radius: .5%;
+    font-size: 15pt;
+    color: black;
+    top: 550px;
+}
+
+.cont2{
+    position: absolute;
+    padding: 10px;
+    margin: 25px;
+    margin-left: 40px;
+    background-image: linear-gradient(to bottom left,white,rgba(240, 197, 225,.4),transparent,rgba(213, 199, 236,.4),white);
+    border-radius: .5%;
+    font-size: 25pt;
+    color: black;
+    top: 500px;
+
+}
+
+img.a{
+    float: left;
+}
+
+img.b{
+    float: right;
+}
+
+img.c{
+    float: left;
+}
+
+.font{
+    font-family: 'Satisfy', cursive;
+}

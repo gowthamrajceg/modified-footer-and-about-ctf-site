@@ -1,0 +1,69 @@
+<div class="smedia">
+  <br><br><br><br>
+  <div class="content"  *ngIf="x">
+      <a href="https://www.instagram.com/ceg_tech_forum/">
+          <img src="../../assets/insta.jpeg" width="40px" height="40px" class="float img1">
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>.</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <a href="#">
+          <img src="../../assets/utube.png" width="50px" height="50px" class="float img2">
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>.</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <a href="https://www.linkedin.com/company/ceg-tech-forum/">
+          <img src="../../assets/lin.png" width="53px" height="53px" class="float img3">
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>.</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+        <a href="https://www.facebook.com/techforum.ceg/">
+          <img src="../../assets/fb.png" width="53px" height="53px" class="float img4">
+        </a>
+        
+  </div>
+
+
+  <div class="pcicon" *ngIf="!x">
+    <a href="https://www.instagram.com/ceg_tech_forum/">
+        <img src="../../assets/insta.jpeg" width="40px" height="40px" class="float img1">
+      </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>.</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+      <a href="#">
+        <img src="../../assets/utube.png" width="50px" height="50px" class="float img2">
+      </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>.</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+      <a href="https://www.linkedin.com/company/ceg-tech-forum/">
+        <img src="../../assets/lin.png" width="53px" height="53px" class="float img3">
+      </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>.</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+      <a href="https://www.facebook.com/techforum.ceg/">
+        <img src="../../assets/fb.png" width="53px" height="53px" class="float img4">
+      </a>
+      
+  </div>
+
+  <br><br><br><br>
+
+  <footer class="footer">
+    <h1>
+        <strong class="font">
+          TECH TEAM
+        </strong>
+    </h1>
+    <hr>
+    <div *ngIf="x">  
+    <p><u>Contact information</u>&nbsp;:&nbsp;&nbsp; <a href="mailto:ctfwebandapp@gmail.com">
+        ctfwebandapp@gmail.com
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;044 2235 9002</p>
+    <hr>
+    <p> &#169;Copyright <b>&#60;!--CEG TECH FORUM--&#62;</b></p>
+  </div>
+
+  <div *ngIf="!x">  
+    <p><u>Contact information</u>:<a href="mailto:ctfwebandapp@gmail.com">
+        ctfwebandapp@gmail.com
+    </a>&nbsp;|&nbsp;044 2235 9002</p>
+    <hr>
+    <p> &#169;Copyright <b>&#60; WEB AND APP TEAM CEG TECH FORUM 2019 &#62;</b></p>
+  </div>
+  </footer>
+  
+</div>
+
